@@ -4,8 +4,8 @@ meta:
   engineVersion: 260.2.0
   forkId: ""
   forkVersion: ""
-  time: 08/10/2025 17:02:38
-  entityCount: 147
+  time: 08/11/2025 19:40:06
+  entityCount: 152
 maps: []
 grids:
 - 292
@@ -28,6 +28,7 @@ entities:
     - type: MetaData
       name: RAE-Arrivals 1212
     - type: Transform
+      parent: invalid
     - type: MapGrid
       chunks:
         -1,-1:
@@ -146,6 +147,13 @@ entities:
     - type: Transform
       pos: -1.5,3.5
       parent: 292
+- proto: AirlockCommandGlassLocked
+  entities:
+  - uid: 151
+    components:
+    - type: Transform
+      pos: -0.5,1.5
+      parent: 292
 - proto: AirlockGlassShuttle
   entities:
   - uid: 48
@@ -157,6 +165,30 @@ entities:
     components:
     - type: Transform
       pos: -2.5,-3.5
+      parent: 292
+- proto: AlwaysPoweredWallLight
+  entities:
+  - uid: 147
+    components:
+    - type: Transform
+      pos: -3.5,0.5
+      parent: 292
+  - uid: 148
+    components:
+    - type: Transform
+      pos: 2.5,0.5
+      parent: 292
+  - uid: 149
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,2.5
+      parent: 292
+  - uid: 150
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,2.5
       parent: 292
 - proto: APCBasic
   entities:

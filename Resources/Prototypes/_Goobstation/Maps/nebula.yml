@@ -16,7 +16,7 @@
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_corona.yml
         - type: StationArrivals
-          shuttlePath: /Maps/Shuttles/arrivals_relic.yml
+          shuttlePath: Maps/_RA/Shuttles/arrivals_rae.yml
         - type: StationJobs
           availableJobs:
             #service
